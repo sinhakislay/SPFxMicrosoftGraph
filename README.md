@@ -1,8 +1,9 @@
-# spfx-graphapi
+# Use Microsoft Graph in SPFx to show Microsoft Teams information
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Use Microsoft Graph in SPFx to show Microsoft Teams information such as ID and Disply name of user who is logged in.
+
 
 [picture of the solution in action, if possible]
 
@@ -19,20 +20,23 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+Microsoft 365 Developer account
+Visual Studio code or any other IDE
+Node.js installed
+Git installation
+SPFx Development Set up https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+SPFxMicrosoftGraph | Author details (Kislay Sinha, CGI, https://twitter.com/SinhaKislay)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|Dec 29, 2020|Initial release
 
 ## Disclaimer
 
@@ -48,21 +52,21 @@ Version|Date|Comments
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
+- Upload the package "spfx-graphapi.sppkg" from folder SPFxMicrosoftGraph\sharepoint\solution in SharePoint Admin Center App Catalog
+- Apporve API Access in SharePoint Tenant Admin
+- For more information check the video 
+
 
 ## Features
 
-Description of the extension that expands upon high-level summary above.
+Explains how to use Microsoft Graph in SharePoint Development Framework 
 
 This extension illustrates the following concepts:
 
-- topic 1
-- topic 2
-- topic 3
+- Call Microsoft Graph from SPFx App
+- Capture Microsoft Teams details
+- Display infomation
 
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
 ## References
 
