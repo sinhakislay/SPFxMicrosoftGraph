@@ -6,7 +6,7 @@
 - More informatiom can be found here: https://youtu.be/b4PBLZGKF_w
 
 
-[picture of the solution in action, if possible]
+[spfxgraph.png]
 
 ## Used SharePoint Framework Version
 
