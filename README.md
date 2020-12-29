@@ -2,7 +2,8 @@
 
 ## Summary
 
-Use Microsoft Graph in SPFx to show Microsoft Teams information such as ID and Disply name of user who is logged in.
+- Use Microsoft Graph in SPFx to show Microsoft Teams information such as ID and Display name of user who is logged in.
+- More informatiom can be found here: https://youtu.be/b4PBLZGKF_w
 
 
 [picture of the solution in action, if possible]
@@ -20,11 +21,11 @@ Use Microsoft Graph in SPFx to show Microsoft Teams information such as ID and D
 
 ## Prerequisites
 
-Microsoft 365 Developer account
-Visual Studio code or any other IDE
-Node.js installed
-Git installation
-SPFx Development Set up https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment
+- Microsoft 365 Developer account
+- Visual Studio code or any other IDE
+- Node.js installed
+- Git installation
+- SPFx Development Set up https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment
 
 ## Solution
 
@@ -54,7 +55,7 @@ Version|Date|Comments
 
 - Upload the package "spfx-graphapi.sppkg" from folder SPFxMicrosoftGraph\sharepoint\solution in SharePoint Admin Center App Catalog
 - Apporve API Access in SharePoint Tenant Admin
-- For more information check the video 
+- For more information check the video https://youtu.be/b4PBLZGKF_w
 
 
 ## Features
