@@ -6,7 +6,7 @@
 - More informatiom can be found here: https://youtu.be/b4PBLZGKF_w
 
 
-[spfxgraph.png]
+![spfxgraph.png]
 
 ## Used SharePoint Framework Version
 
