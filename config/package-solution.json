@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-graphapi-client-side-solution",
+    "id": "408e62c9-2313-4efd-9aa2-26f2488a34e9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph", 
+        "scope": "Calendars.Read" 
+      },
+      {
+      "resource": "Microsoft Graph",
+      "scope": "People.Read"
+      }
+      ,
+      {
+      "resource": "Microsoft Graph",
+      "scope": "User.Read.All"
+      },
+      {
+      "resource": "Microsoft Graph",
+      "scope": "Group.Read.All"
+      }
+      ,
+      {
+      "resource": "Microsoft Graph",
+      "scope": "Tasks.ReadWrite"
+      }
+      
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-graphapi.sppkg"
+  }
+}
